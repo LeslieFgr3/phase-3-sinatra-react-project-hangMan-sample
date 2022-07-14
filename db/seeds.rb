@@ -11,17 +11,29 @@ u2 = User.create(user_name: "leslie", password: "flat iron")
 
 
 puts "Seeding games..."
-g1 = Game.create(prompt: "what is the opposite of a dog?", answers: "cat")
-g2 = Game.create(prompt: "what do you wear to the beach?", answers: "hat")
-g3 = Game.create(prompt: "what does a ghost say?", answers: "boo")
-g4 = Game.create(prompt: "what is the opposite of small?", answers: "big")
-g5 = Game.create(prompt: "what is the opposite of hi?", answers: "bye")
-g6 = Game.create(prompt: "what is the opposite of null?", answers: "all")
-g7 = Game.create(prompt: "what is the opposite of foo?", answers: "boo")
-g8 = Game.create(prompt: "what is the opposite of wow?", answers: "woo")
-g9 = Game.create(prompt: "what is the opposite of bottom?", answers: "top")
-g10 = Game.create(prompt: "what is the opposite of non?", answers: "all")
+g1 = Game.create(prompt: "what is the opposite of a dog?", answers: "cat", level: 1)
+g2 = Game.create(prompt: "what do you wear to the beach?", answers: "hat", level: 1)
+g3 = Game.create(prompt: "what does a ghost say?", answers: "boo", level: 1)
+g4 = Game.create(prompt: "what is the opposite of small?", answers: "big", level: 1)
+g5 = Game.create(prompt: "what is the opposite of hi?", answers: "bye", level: 1)
 
+g6 = Game.create(level: 2, prompt: "exam Q1?", answers: "bbbb")
+g6 = Game.create(level: 2, prompt: "exam Q2?", answers: "cccc")
+g6 = Game.create(level: 2, prompt: "exam Q3?", answers: "dddd")
+g6 = Game.create(level: 2, prompt: "exam Q4?", answers: "eeee")
+g6 = Game.create(level: 2, prompt: "exam Q5?", answers: "ffff")
+
+Game.create(level: 3, prompt: "exam Q1?", answers: "11111")
+Game.create(level: 3, prompt: "exam Q2?", answers: "22222")
+Game.create(level: 3, prompt: "exam Q3?", answers: "33333")
+
+Game.create(level: 4, prompt: "exam Q1?", answers: "123456")
+Game.create(level: 4, prompt: "exam Q2?", answers: "123456")
+Game.create(level: 4, prompt: "exam Q3?", answers: "123456")
+
+Game.create(level: 5, prompt: "exam Q1?", answers: "777777")
+Game.create(level: 5, prompt: "exam Q2?", answers: "1234567")
+Game.create(level: 5, prompt: "exam Q3?", answers: "1234567")
 
 
 puts "Seeding comments..."

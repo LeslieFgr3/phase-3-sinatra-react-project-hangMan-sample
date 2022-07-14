@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_07_12_182502) do
+ActiveRecord::Schema.define(version: 2022_07_14_150621) do
 
   create_table "comments", force: :cascade do |t|
     t.string "body"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2022_07_12_182502) do
   create_table "games", force: :cascade do |t|
     t.string "prompt"
     t.string "answers"
+    t.integer "level"
   end
 
   create_table "users", force: :cascade do |t|
