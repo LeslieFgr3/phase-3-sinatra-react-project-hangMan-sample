@@ -17,23 +17,17 @@ g3 = Game.create(prompt: "what does a ghost say?", answers: "boo", level: 1)
 g4 = Game.create(prompt: "what is the opposite of small?", answers: "big", level: 1)
 g5 = Game.create(prompt: "what is the opposite of hi?", answers: "bye", level: 1)
 
-g6 = Game.create(level: 2, prompt: "exam Q1?", answers: "bbbb")
-g6 = Game.create(level: 2, prompt: "exam Q2?", answers: "cccc")
-g6 = Game.create(level: 2, prompt: "exam Q3?", answers: "dddd")
-g6 = Game.create(level: 2, prompt: "exam Q4?", answers: "eeee")
-g6 = Game.create(level: 2, prompt: "exam Q5?", answers: "ffff")
+g6 = Game.create(level: 2, prompt: "what is the opposite of up?", answers: "down")
+g6 = Game.create(level: 2, prompt: "where do you go to get money?", answers: "bank")
+g6 = Game.create(level: 2, prompt: "truth our ____?", answers: "dare")
+g6 = Game.create(level: 2, prompt: "what season comes after summer?", answers: "fall")
+g6 = Game.create(level: 2, prompt: "what is the opposite of right?", answers: "left")
 
-Game.create(level: 3, prompt: "exam Q1?", answers: "11111")
-Game.create(level: 3, prompt: "exam Q2?", answers: "22222")
-Game.create(level: 3, prompt: "exam Q3?", answers: "33333")
+Game.create(level: 3, prompt: "what food do people eat on tuesdays?", answers: "tacos")
+Game.create(level: 3, prompt: "an _____ a day keeps the doctor away", answers: "apple")
+Game.create(level: 3, prompt: "what is the opposite of tall?", answers: "short")
 
-Game.create(level: 4, prompt: "exam Q1?", answers: "123456")
-Game.create(level: 4, prompt: "exam Q2?", answers: "123456")
-Game.create(level: 4, prompt: "exam Q3?", answers: "123456")
 
-Game.create(level: 5, prompt: "exam Q1?", answers: "777777")
-Game.create(level: 5, prompt: "exam Q2?", answers: "1234567")
-Game.create(level: 5, prompt: "exam Q3?", answers: "1234567")
 
 
 puts "Seeding comments..."
